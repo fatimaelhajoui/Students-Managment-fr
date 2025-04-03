@@ -1,20 +1,23 @@
-# Students-Managment-fr
+# 📚 Students-Managment-fr
 a simple Java GUI  application with Swing 
-
 
 ![image](https://github.com/user-attachments/assets/eacd6d47-9423-4d2e-8afa-da37d340e42a)
 
-<h1>Installation & Usage</h1>  
-1. Ensure you have **Java** installed on your system. <br/>
-2. Clone this repository:<br/>
-  git clone https://github.com/your-username/Students-Managment-fr.git<br/>
-3. Open the project in your preferred Java IDE (e.g. Eclipse, NetBeans).
 
 
+## 🚀 Installation & Usage  
+### Prerequisites  
+Before running the application, ensure you have:  
+- **Java** installed on your system (Java 8+ recommended).  
+- A Java IDE (e.g., **Eclipse**, **NetBeans**, or **IntelliJ IDEA**).  
 
+### Steps to Install & Run  
+1. **Clone this repository:**  
+   ```bash
+   git clone https://github.com/fatimaelhajoui/Students-Managment-fr.git
 
-<h1>Features</h1> 
-<b>-Ajouter (Create):</b>  
+## 🎯 Features
+### ➕ Ajouter (Create):
 <ul>
  <li>Add a new student to the table. </li>
 
@@ -31,7 +34,7 @@ a simple Java GUI  application with Swing
 </ul>
 
 
-<b>-Modifier (Update):</b> 
+### ✏️ Modifier (Update):
 <ul>
  <li>Update the selected student in the table</li>
 
@@ -42,15 +45,14 @@ a simple Java GUI  application with Swing
 </ul>
 
 
-<b>-Supprimer (Delete):</b>
+### ❌ Supprimer (Delete)
 <ul>
  <li> Delete the selected student in the table.</li>
 
 </ul>
 
 
-<b>-Quitter (exit):</b> a buuton to close the programme b ut before a confirm message will appear.
-
+### 🔚 Quitter (Exit)
 <ul>
  <li>Closes the application.</li>
  <li>A confirmation message appears before exiting.</li>
