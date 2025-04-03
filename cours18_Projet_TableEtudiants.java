@@ -166,7 +166,12 @@ public class cours18_Projet_TableEtudiants extends javax.swing.JFrame {
 
     private void QuitterActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_QuitterActionPerformed
         // TODO add your handling code here:
-        System.exit(0);
+        //JOptionPane.showMessageDialog(this, "Voulez Vous Quittez le programme? ", "Fermer", JOptionPane.YES_NO_OPTION);
+       int choice= JOptionPane.showConfirmDialog(this, "Voulez-vous quitter le programme? ", "Fermer", JOptionPane.YES_NO_OPTION);
+        if(choice == 0){
+            System.exit(0);
+        }
+        
     }//GEN-LAST:event_QuitterActionPerformed
 
     private void AjouterActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AjouterActionPerformed
